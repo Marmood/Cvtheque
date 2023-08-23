@@ -1,0 +1,182 @@
+body, html{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#93C5C7;
+}
+
+/*===================================================================Header===============================================================================*/
+header{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+header > article:nth-of-type(1){
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
+
+header > article:nth-of-type(2){
+	position: absolute;
+	top: 80px; 
+	left: 200px;
+}
+
+header > article:nth-of-type(3){
+	position: fixed;
+	top: 80px; 
+	left: 50px;
+}
+
+header > article:nth-of-type(1) > h1{
+	font-size:150px;
+	font-weight:bold;
+	background-color:#C9E4E7;
+	border-radius: 15px;
+	padding:50px 200px 50px 200px;
+	margin-top:20px;
+	margin-bottom:20px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.15);
+}
+
+header > form > article:nth-of-type(2){
+	width:100%;
+	display:flex;
+	justify-content:center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+header > form > article:nth-of-type(1){
+	width:45%;
+	display:flex;
+	justify-content:flex-end;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-right:30px;
+}
+
+header > form {
+	width:100%;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+header > form > article:nth-of-type(1) > input{
+	width:60%;
+	height:50px;
+	font-size:20px;
+}
+
+header > form > article:nth-of-type(2){
+	width:45%;
+	display:flex;
+	justify-content:flex-start;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-left:30px;
+}
+
+header > form > article:nth-of-type(2) > select{
+	width:56%;
+	height:50px;
+	font-size:20px;
+}
+
+header > form > article:nth-of-type(3){
+	width:40%;
+}
+
+header > form > article:nth-of-type(3) button{
+	width:100%;
+	border-radius:15px;
+	border:none;
+	height:50px;
+	background-color:cadetblue;
+	cursor:pointer;
+	
+}
+
+/*===================================================================Corps principal avec tout les articles===============================================================================*/
+body > main {
+	background-color: #C9E4E7;
+	width: 80%;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom:100px;
+	align-items: center;
+	margin-left: 10%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:Space-evenly;
+	padding-bottom:20px;
+}
+/*===================================================================Chaques articles (Personnes)===============================================================================*/
+body > main > section{
+	width:26%;
+	background-color:cadetblue;
+	margin-top:20px;
+	border-radius: 15px;
+	padding:20px;
+	display:flex;
+	flex-wrap:wrap;
+	height:680px;
+	justify-content:center;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.15);
+}
+
+p{
+	color:#C9E4E7;
+	margin:5px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+body > main > section > article:nth-of-type(1) p{
+	font-size:25px;
+	font-weight:bold;
+}
+
+body > main > section > article{
+	width:100%;
+}
+
+body > main > section > article:nth-of-type(1){
+	background-color:#3B8184;
+	margin-bottom:5px;
+}
+
+body > main > section > article:nth-of-type(n+6):nth-of-type(-n+10){
+	width:40%;
+}
+
+body > main > section hr{
+	border:1px solid #C9E4E7;
+}
+/*===================================================================Reseaux sociaux===============================================================================*/
+.reseaux{
+	width:19%;
+	margin-top:2px;
+	margin-bottom:5px;
+}
+/*===================================================================Boutton modifier / supprimer===============================================================================*/
+body > main > section > article button{
+	background-color: #C9E4E7;
+	border-radius: 15px;
+	width:80%;
+	height:50px;
+	cursor: pointer;
+}
+
+body > main > section > article button > p{
+	color:black;
+	font-size:18px;
+}
+
+
